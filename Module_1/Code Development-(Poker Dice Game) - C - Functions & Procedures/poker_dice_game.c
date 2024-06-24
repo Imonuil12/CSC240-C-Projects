@@ -21,6 +21,8 @@ int CheckThreeOfKind(int dice[]) {
     return 0;
 }
 
+
+
 // Check for four of a kind (score = 40)
 int CheckFourOfKind(int dice[]) {
     for (int i = 0; i < 2; ++i) {
